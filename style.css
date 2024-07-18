@@ -93,3 +93,30 @@ li:last-child{
     box-shadow: rgba(83, 28, 28, 0.47);
 
 }
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #container {
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    li {
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .delete-todo-btn {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
