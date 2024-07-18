@@ -1,47 +1,47 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
 }
-body{
+
+body {
     background-color: rgb(10, 10, 10);
 }
-#container{
+
+#container {
     background-color: azure;
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin: 5% auto;
     border-radius: 10px;
-    
-    
 }
-h1{
+
+h1 {
     text-align: center;
     margin-top: 5%;
     font-size: 50px;
-
 }
-input{
+
+input {
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: left;
-    border:1px solid rgb(1, 1, 1);
-    max-height:50rem;
-    max-width:500rem;
+    border: 1px solid rgb(1, 1, 1);
     box-shadow: rgb(178, 50, 50);
-
 }
-#textinput{
+
+#textinput {
     height: 50px;
-    width: 350px;
+    width: 90%;
+    max-width: 350px;
     box-shadow: 0 0 2px rgb(7, 7, 6);
     border-radius: 10px;
 }
-#addbutton{
-    height:50px;
-    width:50px;
+
+#addbutton {
+    height: 50px;
+    width: 50px;
     box-shadow: 0 0 2px rgb(7, 7, 6);
     border-radius: 10px;
     background-color: rgb(27, 24, 24);
@@ -49,16 +49,19 @@ input{
     font-size: 15px;
     cursor: pointer;
 }
-input:hover{
+
+input:hover {
     background-color: rgb(218, 222, 222);
 }
-ul{
-    list-style:none;
-    padding:0;
+
+ul {
+    list-style: none;
+    padding: 0;
     margin-top: 20px;
     text-align: center;
 }
-li{
+
+li {
     padding: 10px;
     background-color: rgb(198, 234, 239);
     margin-bottom: 5px;
@@ -69,30 +72,29 @@ li{
     font-size: 20px;
     height: 50px;
     text-align: center;
-    width:400px;
-    margin-left: 17%;
-    
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
 }
-li:last-child{
+
+li:last-child {
     margin-bottom: 0px;
 }
 
-.delete-todo-btn{
+.delete-todo-btn {
     background-color: rgba(229, 8, 8, 0.873);
     color: white;
     height: 50px;
-    width:50px;
+    width: 50px;
     border-radius: 5px;
     cursor: pointer;
-    border:none;
+    border: none;
     font-weight: 500;
     font-size: 30px;
-    box-shadow: rgb(86, 29, 29);
     margin-right: -10px;
-    border:1px solid;
     box-shadow: rgba(83, 28, 28, 0.47);
-
 }
+
 /* Media Queries for Responsive Design */
 @media (max-width: 600px) {
     h1 {
@@ -102,6 +104,10 @@ li:last-child{
     #container {
         width: 90%;
         margin: 5% auto;
+    }
+
+    #textinput {
+        width: 80%;
     }
 
     li {
